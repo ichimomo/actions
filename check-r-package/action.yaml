@@ -10,7 +10,7 @@ inputs:
     default: '"--no-manual"'
   error-on:
     description: 'What type of result should cause a build error? Note that it often needs to be quoted in YAML, see the README for details.'
-    default: '"warning"'
+    default: '"error"'
   check-dir:
     description: 'Where should the check output go? Note that it often needs to be quoted in YAML, see the README for details.'
     default: '"check"'
